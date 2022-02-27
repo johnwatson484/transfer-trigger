@@ -6,7 +6,9 @@ module.exports = async function (context, myBlob) {
   const sourceFile = context.bindingData.blobTrigger.replace(`${CONTAINER_NAME}/`, '')
 
   const result = await axios.post(process.env.TRIGGER_URL, {
-    sourceFile
+    sourceFile,
+    sourceContainer: CONTAINER_NAME,
+    targetContainer: 'target'
   })
 
   if (result.status === 200) {
