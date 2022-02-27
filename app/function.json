@@ -4,7 +4,7 @@
       "name": "myBlob",
       "type": "blobTrigger",
       "direction": "in",
-      "path": "inbound/S{name}.dat",
+      "path": "batch/inbound/S{name}.dat",
       "connection": "BATCH_STORAGE"
     }
   ]
