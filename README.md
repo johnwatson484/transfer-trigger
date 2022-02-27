@@ -1,3 +1,6 @@
+[![Build Status](https://dev.azure.com/johnwatson484/John%20D%20Watson/_apis/build/status/Transfer%20Trigger?branchName=main)](https://dev.azure.com/johnwatson484/John%20D%20Watson/_build/latest?definitionId=60&branchName=main)
+[![Quality Gate Status](https://sonarcloud.io/api/project_badges/measure?project=johnwatson484_transfer-trigger&metric=alert_status)](https://sonarcloud.io/summary/new_code?id=johnwatson484_transfer-trigger)
+
 # Transfer Trigger
 Azure Function to trigger file transfer between blob storage containers
 
